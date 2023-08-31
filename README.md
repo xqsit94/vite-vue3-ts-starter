@@ -15,13 +15,15 @@ and follow the prompts.
 ### Features
 
 - 🚀 Fast development and build times with Vite
-🖖 Vue 3 for UI components
-🦋 TypeScript for static type checking
-📚 Interactive UI development and testing with Storybook
-✅ Unit Testing with Vitest
-🧹 Linting and formatting with ESLint and Prettier
-🐶 Pre-commit checks using Husky
-🎨 Optimized CSS with UnoCSS
+- 🖖 Vue 3 for UI components
+- 🧭 Vue Router for client-side routing
+- 🗄️ Pinia for state management
+- 🦋 TypeScript for static type checking
+- 📚 Interactive UI development and testing with Storybook
+- ✅ Unit Testing with Vitest
+- 🧹 Linting and formatting with ESLint and Prettier
+- 🐶 Pre-commit checks using Husky
+- 🎨 Optimized CSS with UnoCSS
 
 ### Commands
 
