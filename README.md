@@ -1,18 +1,68 @@
-# Vue 3 + TypeScript + Vite
+# Vite Vue 3 TypeScript Starter
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A rapid development starter kit using Vite, Vue3, TypeScript, Vitest, ESLint, Prettier, Husky, and UnoCSS.
 
-## Recommended IDE Setup
+### Getting Started
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Run
 
-## Type Support For `.vue` Imports in TS
+```bash
+npx @xqsit94/vite-vue3-ts-starter my-vue-app
+```
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+and follow the prompts.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+### Features
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+- 🚀 Fast development and build times with Vite
+🖖 Vue 3 for UI components
+🦋 TypeScript for static type checking
+📚 Interactive UI development and testing with Storybook
+✅ Unit Testing with Vitest
+🧹 Linting and formatting with ESLint and Prettier
+🐶 Pre-commit checks using Husky
+🎨 Optimized CSS with UnoCSS
+
+### Commands
+
+Using npm
+
+```bash
+npm run dev             # Run the app in development mode.
+npm run build           # Build the app for production using type-check and build-only.
+npm run preview         # Serve the built app for preview.
+npm run test:watch      # Run Vitest in watch mode.
+npm run test            # Run Vitest without watch.
+npm run lint            # Run ESLint to check for code issues.
+npm run format          # Run Prettier to format code.
+npm run postinstall     # Install Husky Git hooks.
+npm run prepare         # Prepare Husky hooks.
+```
+
+#### Using Yarn
+
+```bash
+yarn dev             # Run the app in development mode.
+yarn build           # Build the app for production using type-check and build-only.
+yarn preview         # Serve the built app for preview.
+yarn test:watch      # Run Vitest in watch mode.
+yarn test            # Run Vitest without watch.
+yarn lint            # Run ESLint to check for code issues.
+yarn format          # Run Prettier to format code.
+yarn postinstall     # Install Husky Git hooks.
+yarn prepare         # Prepare Husky hooks.
+```
+
+#### Using pnpm
+
+```bash
+pnpm dev             # Run the app in development mode.
+pnpm build           # Build the app for production using type-check and build-only.
+pnpm preview         # Serve the built app for preview.
+pnpm test:watch      # Run Vitest in watch mode.
+pnpm test            # Run Vitest without watch.
+pnpm lint            # Run ESLint to check for code issues.
+pnpm format          # Run Prettier to format code.
+pnpm postinstall     # Install Husky Git hooks.
+pnpm prepare         # Prepare Husky hooks.
+```
